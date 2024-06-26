@@ -1,0 +1,110 @@
+div {
+    background-color: white;
+    display: flex;
+    width: 30%;
+    height: 30%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    /*box-shadow: 5px 5px 50px rgb(223, 217, 217);*/
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: 0px;
+    
+    
+}
+
+div form {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+#submit {
+    padding-left: 40%;
+    padding-right: 43%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(190, 184, 184);
+    border-radius: 20px;
+    background-color: #0374D9;
+    color: white;
+}
+
+
+
+#mypassword {
+    padding-top: 10px;
+    border: 1px solid #0374D9;
+    border-radius: 5px;
+    vertical-align: baseline;
+    padding-bottom: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+#labelpassword {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#labelrem {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#forget {
+    text-decoration: none;
+    position: relative;
+    left: 30%;
+    font-size: smaller;
+    color: #0374D9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#forget:hover {
+    color: rgb(77, 132, 234);
+    transition: 0s;
+}
+
+#labelshow {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+#so {
+    position: relative;
+    top: 4px;
+}
+
+#see{
+    cursor: pointer;
+    
+    float: right;
+}
+#username {
+    padding-top: 10px;
+    border: 1px solid #0374D9;
+    border-radius: 5px;
+    vertical-align: baseline;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+}
+#usernamelabel {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

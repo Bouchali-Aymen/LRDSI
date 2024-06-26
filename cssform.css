@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #f5f5fa;
+}
+
+.box1 ul
+{
+    background-color: #f5f5fa;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.box1 li 
+{
+    list-style: none;
+    padding-left: 50px;
+} 
+
+.icon-container
+{
+    display: flex;
+    align-items: center;
+}
+
+.text1
+{
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 18px; 
+   font-weight: bolder;
+   margin-left: -80px;
+}
+
+
+.text2
+{
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 15px; 
+   font-weight: bolder;
+   text-align: center;
+}
+
+.text3
+{
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 18px; 
+   font-weight: bolder;
+   text-align: center;
+   text-decoration: underline;
+}
+
+
+
+.menu
+{
+    background-color: #0374D9;
+    display: flex;
+    justify-content: center;
+    padding: 15px;  
+}
+
+
+.menu a
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 650;
+    color: white;
+    text-decoration: none;
+    padding-left: 45px;
+    display: inline-block;
+     position: relative;
+}
+
+.menu a::after
+{
+    content:"";
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    transform: scale(0);
+    transform-origin: left;
+    background: white;
+    transition: transform 0.3s ease-out;
+
+}
+
+.menu a:hover::after
+{
+    transform: scaleX(0.7);
+}
+
+
+.box2 a{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+
+}
+
+.box3{
+    position: relative;
+}
+
+
+.box3 img{
+    height: 420px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    filter: blur(3px) brightness(0.6);
+    z-index: -1;
+}
+
+
+.flou
+{
+    color:white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    top: 170px;
+    left: 35px;
+}
+
+.flou2
+{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 60px;
+    left: 35px;
+}
+
+.flou3
+{
+    color: white;
+    background-color: #0374D9;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 45px;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    top: 250px;
+    left: 35px;
+}
+
+.flou3:hover
+{
+    color: #0374D9;
+    background-color: #f5f5fa;
+    border: 2px solid #0374D9;  
+  
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+   background-color: #e6e6e6;
+   width: 290px;
+   height: 350px;
+   margin-top: 80px;
+   margin-left: 10%;
+   margin-right: 10%;
+   border-radius: 15px;
+   transition-duration: 250ms;
+    transition-property: all;
+}
+
+.card:hover
+{
+    cursor: pointer;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+
+.card p{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-image{
+    background-color: black;
+    height: 160px;
+    margin-bottom: 15px;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.car-1{
+    background-image: url(Heart\ Disease\ Prediction\ using\ Machine\ learning.jpg);
+    background-size: cover;
+}
+
+.car-2{
+    background-image: url(laboratory\ background.png);
+    background-size: cover;
+}
+
+.cta
+{
+   background-color: #0374D9;
+   cursor: pointer;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   padding: 12px 45px;
+   border: none;
+   border-radius: 20px;
+   margin: 20px 70px;
+}
+
+.cta2
+{
+   background-color: #0374D9;
+   cursor: pointer;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   font-family: 30px;
+   padding: 12px 45px;
+   border: none;
+   border-radius: 20px;
+   margin: 35px 70px;
+}
+
+.cta:hover
+{
+   background-color: white;
+   color: #0374D9;
+   border: 1px solid #0374D9;
+}
+
+.cta2:hover
+{
+   background-color: white;
+   color: #0374D9;
+   border: 1px solid #0374D9;
+}
+
+footer
+{
+    background-color: #0374D9;
+    color: white;
+    padding: 20px;
+}
+
+footer h1
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
